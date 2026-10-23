@@ -1,0 +1,20 @@
+name: Dex
+repo: https://github.com/exmergo/dex
+tagline: Analytics engineering skills for warehouses and dbt projects
+description: Three Agent Skills for analytics engineering. Explore profiles a warehouse or DuckDB file read-only (PII flags, grain, verified joins), Transform authors dbt models and semantic layers as reviewable diffs, and Maintain detects schema, volume, grain, and metric-definition drift. Guardrails live in the engine the skills call, so cost is quoted before any warehouse spend and builds run against a dev target only.
+scope:
+  - project
+tags:
+  - skills
+  - data
+  - dbt
+  - sql
+homepage: https://docs.exmergo.com/dex
+installation: |
+  Needs [uv](https://docs.astral.sh/uv/) on your `PATH`.
+
+  ```bash
+  npx skills add exmergo/dex --agent opencode
+  ```
+
+  The skills land in `.agents/skills/`, which OpenCode discovers.
